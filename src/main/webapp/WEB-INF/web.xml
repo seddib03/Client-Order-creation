@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+<servlet>
+<servlet-name>CreationClient</servlet-name>
+<servlet-class>projet.servelets</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CreationClient</servlet-name>
+<url-pattern>/creationClient</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>CreationCommande</servlet-name>
+<url-pattern>/creationCommande</url-pattern>
+</servlet-mapping>
+</web-app>
+</element>
